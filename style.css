@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -69,7 +69,8 @@ a.btn:hover {
 
 #about {
     background: url(images/7.png) no-repeat;
-    padding: 70px 0 30px;
+    background-size: cover;
+    padding: 70px 0 40px;
 }
 
 .about-image {
@@ -102,7 +103,7 @@ a.btn:hover {
 .recipe-common {
     width: 31.33%;
     margin: 0 1%;
-    padding: 15px;
+    padding: 30px;
     box-sizing: border-box;
     box-shadow: 3px 4px 30px 0 rgb(98 120 223 / 20%);
     border-radius: 20px;
@@ -125,6 +126,26 @@ a.btn:hover {
     margin: auto;
     line-height: 1.7;
 }
+
+
+/* counter section */
+#counter-section {
+    padding: 80px 0;
+}
+
+.counter {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    box-shadow: 3px 4px 20px rgb(0 0 0 / 50%);
+    padding: 30px;
+    border-radius: 30px;
+}
+.counter-common {
+    width: 31%;
+    margin: 0 1%;
+}
+
 
 /* testimonials section */
 
