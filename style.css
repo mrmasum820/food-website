@@ -129,7 +129,7 @@ a.btn:hover {
 /* testimonials section */
 
 #testimonials {
-    padding: 70px 0;
+    padding: 50px 0 70px;
 }
 
 #testimonials h2 {
@@ -145,7 +145,7 @@ a.btn:hover {
 .t-content {
     background: #fff;
     box-shadow: 3px 4px 30px 0 rgb(98 120 223 / 20%);
-    padding: 50px 40px;
+    padding: 40px;
     box-sizing: border-box;
     margin-bottom: 42px;
     border-radius: 30px;
@@ -184,4 +184,18 @@ a.btn:hover {
     font-size: 17px;
     display: inline-block;
     color: #767676;
+}
+
+/* footer section */
+
+footer {
+    background: #767676;
+    padding: 20px 0;
+}
+
+footer h2, p {
+    color: darkgray;
+}
+footer span {
+    color: orange;
 }
