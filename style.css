@@ -104,7 +104,7 @@ a.btn:hover {
     margin: 0 1%;
     padding: 15px;
     box-sizing: border-box;
-    box-shadow: 3px 4px 20px rgb(0 0 0 / 50%);
+    box-shadow: 3px 4px 30px 0 rgb(98 120 223 / 20%);
     border-radius: 20px;
 }
 
@@ -124,4 +124,64 @@ a.btn:hover {
     width: 60%;
     margin: auto;
     line-height: 1.7;
+}
+
+/* testimonials section */
+
+#testimonials {
+    padding: 70px 0;
+}
+
+#testimonials h2 {
+    font-size: 35px;
+    color: rgba(0, 0, 0,.7);
+    margin-bottom: 50px;
+}
+
+.t-common {
+    width: 31.33%;
+    margin: 0 1%;
+}
+.t-content {
+    background: #fff;
+    box-shadow: 3px 4px 30px 0 rgb(98 120 223 / 20%);
+    padding: 50px 40px;
+    box-sizing: border-box;
+    margin-bottom: 42px;
+    border-radius: 30px;
+    position: relative;
+}
+.t-content::after {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 20px;
+    border-color: #ffffff transparent transparent transparent;
+}
+
+.t-user img {
+    border-radius: 50%;
+    width: 80px;
+    float: left;
+    margin-right: 24px;
+}
+
+.t-user-bio {
+    position: relative;
+    top: 13px;
+}
+.t-user-bio h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.t-user-bio span {
+    font-size: 17px;
+    display: inline-block;
+    color: #767676;
 }
