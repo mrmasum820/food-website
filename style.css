@@ -31,13 +31,17 @@ img {
 
 /* header section */
 
+#header {
+    padding: 100px 0;
+}
+
 .header-content {
     width: 50%;
-    margin-top: 50px;
 }
 
 .header-content h1 {
     font-size: 50px;
+    color: rgba(0, 0, 0,.7);
     margin: 0;
 }
 .header-content span {
@@ -46,7 +50,6 @@ img {
 
 .header-image {
     width: 50%;
-    margin-top: 30px;
 }
 
 a.btn {
@@ -60,4 +63,32 @@ a.btn {
 }
 a.btn:hover {
     background: linear-gradient(#e73131,orange);
+}
+
+/* about section */
+
+#about {
+    background: url(images/7.png) no-repeat;
+    padding: 70px 0 30px;
+}
+
+.about-image {
+    width: 40%;
+    margin: 0 5%; 
+}
+.about-image img {
+    width: 80%;
+}
+.about-content {
+    width: 50%;
+}
+.about-content h2 {
+    font-size: 35px;
+    color: rgba(0, 0, 0,.7);
+}
+
+.about-content p {
+    width: 70%;
+    margin-bottom: 60px;
+    line-height: 1.7;
 }
